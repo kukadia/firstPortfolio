@@ -119,6 +119,12 @@ p {
   padding-top: 90px;
   padding-bottom: 90px;
 }
+.vidpaddsection {
+  background: #000;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  
+}
 
 .paddsections {
   padding-top: 90px;
@@ -399,6 +405,29 @@ p {
   
 }
 
+/* .video-container {
+  height: 1000px;
+  width: 800px;
+  position: relative;
+}
+
+.video-container video {
+width: 100%;
+height: 100%;
+position: absolute;
+object-fit: cover;
+z-index: 0;
+}
+
+/* Just styling the content of the div, the *magic* in the previous rules */
+/* .video-container .caption {
+z-index: 1;
+position: relative;
+text-align: center;
+color: #dc0000;
+padding: 10px;
+} */ 
+
 #hero .hero-content {
   height: 100vh;
   text-align: right;
@@ -502,6 +531,13 @@ p {
   background: #f7f7f7;
   padding-top: 120px;
 }
+#vidabout {
+  width: 100%;
+  height: auto;
+  background: #000000;
+  padding: 20px 20px 20px 20px;
+  align-items: center;
+}
 
 #about .div-img-bg {
   padding-bottom: 30px;
@@ -524,11 +560,32 @@ p {
   text-align: left;
 }
 
+#about .about-descr .videoframe {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+}
+
 #about .about-descr .separator {
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
 }
+
+#vidabout .about-descr .p-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  text-align: left;
+}
+
+#vidabout .about-descr .separator {
+  max-width: 80%;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+
 
 /*--------------------------------------------------------------
 # Services
