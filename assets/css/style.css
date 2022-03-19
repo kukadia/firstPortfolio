@@ -399,10 +399,9 @@ p {
 --------------------------------------------------------------*/
 #hero {
   background: url("../img/home-bg.jpg") repeat scroll center center/cover;
-  height: 100vh;
+  
+  height: 100%;
   width: 100%;
-  
-  
 }
 
 /* .video-container {
@@ -427,6 +426,22 @@ text-align: center;
 color: #dc0000;
 padding: 10px;
 } */ 
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  margin-top: 1cm;
+  padding-bottom: 56.25%;
+  height:0;
+}
+
+.iframe-container iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 #hero .hero-content {
   height: 100vh;
